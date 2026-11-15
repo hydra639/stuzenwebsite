@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Enterprise ERP financial reconciliation dashboard illustration</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eff5ff"/>
+      <stop offset="0.55" stop-color="#f9fbff"/>
+      <stop offset="1" stop-color="#e6f6ff"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c2a4d"/>
+      <stop offset="1" stop-color="#123a66"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0073e0"/>
+      <stop offset="1" stop-color="#0050a5"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 390) scale(430)">
+      <stop stop-color="#41defd" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#41defd" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#00468c" flood-opacity="0.18"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#00468c" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#halo)"/>
+
+  <!-- main ERP window -->
+  <g filter="url(#shadow)">
+    <rect x="180" y="116" width="840" height="530" rx="26" fill="#ffffff"/>
+  </g>
+  <rect x="180" y="116" width="840" height="66" rx="26" fill="#f1f5ff"/>
+  <rect x="180" y="156" width="840" height="26" fill="#f1f5ff"/>
+  <circle cx="214" cy="149" r="7" fill="#ffb3ab"/>
+  <circle cx="238" cy="149" r="7" fill="#ffd8a8"/>
+  <circle cx="262" cy="149" r="7" fill="#9be3c4"/>
+  <rect x="330" y="135" width="220" height="28" rx="14" fill="#ffffff" stroke="#dbe7fb"/>
+  <text x="348" y="154" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#54637d">ERP · FINANCIAL COMMAND</text>
+  <circle cx="962" cy="149" r="13" fill="#dbeafe"/>
+  <circle cx="962" cy="145" r="4.5" fill="#0073e0"/>
+  <path d="M953 157c2-5 5-7 9-7s7 2 9 7" fill="#0073e0"/>
+
+  <!-- left nav -->
+  <rect x="204" y="206" width="160" height="416" rx="16" fill="#f1f7ff"/>
+  <rect x="220" y="224" width="128" height="38" rx="9" fill="#0073e0"/>
+  <rect x="238" y="238" width="76" height="8" rx="4" fill="#ffffff" fill-opacity="0.9"/>
+  <g fill="#94a8c2">
+    <rect x="238" y="288" width="92" height="8" rx="4"/>
+    <rect x="238" y="322" width="76" height="8" rx="4"/>
+    <rect x="238" y="356" width="98" height="8" rx="4"/>
+    <rect x="238" y="390" width="68" height="8" rx="4"/>
+  </g>
+  <rect x="220" y="540" width="128" height="62" rx="12" fill="#0c2a4d"/>
+  <rect x="238" y="558" width="46" height="6" rx="3" fill="#6f91b8"/>
+  <rect x="238" y="574" width="66" height="10" rx="5" fill="#41defd"/>
+
+  <!-- header -->
+  <text x="394" y="226" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#12233c">Financial Reconciliation</text>
+  <rect x="394" y="240" width="236" height="8" rx="4" fill="#c3d1e6"/>
+  <rect x="856" y="208" width="140" height="36" rx="10" fill="url(#blue)"/>
+  <text x="926" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">EXPORT REPORT</text>
+
+  <!-- KPI row -->
+  <g>
+    <rect x="394" y="272" width="184" height="96" rx="14" fill="#f6f9ff" stroke="#e0eafd"/>
+    <rect x="412" y="290" width="58" height="7" rx="3.5" fill="#8296b5"/>
+    <text x="412" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#12233c">$4.28M</text>
+    <rect x="412" y="340" width="78" height="6" rx="3" fill="#10b981" fill-opacity="0.4"/>
+  </g>
+  <g>
+    <rect x="592" y="272" width="184" height="96" rx="14" fill="#f6f9ff" stroke="#e0eafd"/>
+    <rect x="610" y="290" width="66" height="7" rx="3.5" fill="#8296b5"/>
+    <text x="610" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#12233c">1,402</text>
+    <rect x="610" y="340" width="62" height="6" rx="3" fill="#0073e0" fill-opacity="0.35"/>
+  </g>
+  <g>
+    <rect x="790" y="272" width="206" height="96" rx="14" fill="#0c2a4d"/>
+    <rect x="808" y="290" width="68" height="7" rx="3.5" fill="#6f91b8"/>
+    <text x="808" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">SYNCED</text>
+    <rect x="808" y="340" width="92" height="6" rx="3" fill="#41defd" fill-opacity="0.8"/>
+  </g>
+
+  <!-- ledger table -->
+  <rect x="394" y="394" width="602" height="228" rx="14" fill="#ffffff" stroke="#e0eafd"/>
+  <rect x="394" y="394" width="602" height="42" rx="14" fill="#f1f7ff"/>
+  <rect x="394" y="422" width="602" height="14" fill="#f1f7ff"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.1em" fill="#7d8ea8">
+    <text x="414" y="420">ENTITY</text>
+    <text x="568" y="420">CURRENCY</text>
+    <text x="706" y="420">STATUS</text>
+    <text x="848" y="420">AMOUNT</text>
+  </g>
+  <g>
+    <rect x="408" y="448" width="574" height="1" fill="#eef3fb"/>
+    <circle cx="422" cy="472" r="9" fill="#dbeafe"/>
+    <rect x="440" y="466" width="92" height="8" rx="4" fill="#54637d"/>
+    <rect x="568" y="466" width="54" height="8" rx="4" fill="#94a8c2"/>
+    <rect x="706" y="462" width="66" height="18" rx="9" fill="#dcfce7"/>
+    <rect x="850" y="466" width="80" height="8" rx="4" fill="#12233c"/>
+  </g>
+  <g>
+    <rect x="408" y="500" width="574" height="1" fill="#eef3fb"/>
+    <circle cx="422" cy="524" r="9" fill="#e0f2fe"/>
+    <rect x="440" y="518" width="76" height="8" rx="4" fill="#54637d"/>
+    <rect x="568" y="518" width="46" height="8" rx="4" fill="#94a8c2"/>
+    <rect x="706" y="514" width="66" height="18" rx="9" fill="#fef3c7"/>
+    <rect x="850" y="518" width="66" height="8" rx="4" fill="#12233c"/>
+  </g>
+  <g>
+    <rect x="408" y="552" width="574" height="1" fill="#eef3fb"/>
+    <circle cx="422" cy="576" r="9" fill="#e0f2fe"/>
+    <rect x="440" y="570" width="86" height="8" rx="4" fill="#54637d"/>
+    <rect x="568" y="570" width="58" height="8" rx="4" fill="#94a8c2"/>
+    <rect x="706" y="566" width="66" height="18" rx="9" fill="#dcfce7"/>
+    <rect x="850" y="570" width="74" height="8" rx="4" fill="#12233c"/>
+  </g>
+
+  <!-- floating currency card -->
+  <g filter="url(#soft)">
+    <rect x="884" y="500" width="230" height="126" rx="20" fill="#0c2a4d"/>
+  </g>
+  <text x="906" y="530" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.12em" fill="#8fb7e6">MULTI-CURRENCY</text>
+  <g>
+    <circle cx="918" cy="558" r="12" fill="#41defd"/>
+    <text x="914" y="562" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" fill="#062038">$</text>
+    <rect x="940" y="552" width="70" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.9"/>
+    <rect x="1046" y="552" width="44" height="7" rx="3.5" fill="#41defd"/>
+  </g>
+  <g>
+    <circle cx="918" cy="588" r="12" fill="#0073e0"/>
+    <text x="913" y="592" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" fill="#ffffff">€</text>
+    <rect x="940" y="582" width="56" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.75"/>
+    <rect x="1046" y="582" width="34" height="7" rx="3.5" fill="#8fb7e6"/>
+  </g>
+
+  <!-- floating gold coins -->
+  <g filter="url(#soft)">
+    <ellipse cx="1052" cy="238" rx="58" ry="24" fill="url(#gold)"/>
+  </g>
+  <ellipse cx="1052" cy="218" rx="58" ry="24" fill="#ffd166"/>
+  <ellipse cx="1052" cy="218" rx="40" ry="15" fill="#f59e0b" fill-opacity="0.35"/>
+  <text x="1052" y="223" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#92400e" text-anchor="middle">$</text>
+  <ellipse cx="1052" cy="194" rx="44" ry="18" fill="#ffe09a"/>
+  <ellipse cx="1052" cy="194" rx="30" ry="11" fill="#f59e0b" fill-opacity="0.3"/>
+
+  <!-- floating shield -->
+  <g filter="url(#soft)">
+    <circle cx="150" cy="236" r="54" fill="#ffffff"/>
+  </g>
+  <path d="M150 208l22 8v18c0 16-10 28-22 34-12-6-22-18-22-34v-18l22-8z" fill="#0073e0"/>
+  <path d="M140 236l8 8 14-16" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html class="scroll-smooth" lang="en-IN">
   <head>
+    <!-- STUZEN offline edition: split HTML, CSS and JS with hash-based routing. -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="data:image/png;base64,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" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#102A56" />
 
@@ -12,41 +12,9 @@
       name="description"
       content="STUZEN is a software and website development company serving Salem, Chennai, Bangalore, Tamil Nadu and India with web platforms, custom software, AI automation and secure digital products."
     />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <!-- Local offline copy: never index or follow this build. -->
+    <meta name="robots" content="noindex, nofollow" />
     <meta name="author" content="STUZEN TECHNOLOGIES" />
-    <link rel="canonical" href="https://stuzen.com/" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="STUZEN TECHNOLOGIES" />
-    <meta property="og:locale" content="en_IN" />
-    <meta property="og:title" content="STUZEN TECHNOLOGIES — Software &amp; Website Development Company" />
-    <meta
-      property="og:description"
-      content="STUZEN is a software and website development company serving Salem, Chennai, Bangalore, Tamil Nadu and India with web platforms, custom software, AI automation and secure digital products."
-    />
-    <meta property="og:url" content="https://stuzen.com/" />
-    <meta property="og:image" content="https://stuzen.com/og-stuzen.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="STUZEN TECHNOLOGIES — Engineering Digital Experiences" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="STUZEN TECHNOLOGIES — Software &amp; Website Development Company" />
-    <meta
-      name="twitter:description"
-      content="STUZEN is a software and website development company serving Salem, Chennai, Bangalore, Tamil Nadu and India with web platforms, custom software, AI automation and secure digital products."
-    />
-    <meta name="twitter:image" content="https://stuzen.com/og-stuzen.png" />
-    <meta name="twitter:image:alt" content="STUZEN TECHNOLOGIES — Engineering Digital Experiences" />
-
-    <!-- Brand typography: Inter, Manrope & Orbitron -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=Orbitron:wght@600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
 
     <script type="application/ld+json">
       {
@@ -102,7 +70,8 @@
         ]
       }
     </script>
-    <script type="module" src="/src/main.jsx"></script>
+    <script defer src="./app.js"></script>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body class="bg-mist font-sans text-ink antialiased">
     <div id="root"></div>

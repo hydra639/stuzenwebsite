@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Engineering team collaborating around a project dashboard</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf4ff"/>
+      <stop offset="0.55" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#e4f7ff"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c2a4d"/>
+      <stop offset="1" stop-color="#123a66"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dfe9f7"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 370) scale(410)">
+      <stop stop-color="#41defd" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#41defd" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#00468c" flood-opacity="0.16"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#00468c" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#halo)"/>
+  <circle cx="600" cy="360" r="300" fill="#ffffff" fill-opacity="0.36"/>
+  <circle cx="600" cy="360" r="300" stroke="#c7ddf8" stroke-dasharray="3 12"/>
+
+  <!-- big dashboard screen -->
+  <g filter="url(#shadow)">
+    <rect x="330" y="150" width="540" height="300" rx="20" fill="#0c2a4d"/>
+  </g>
+  <rect x="344" y="164" width="512" height="272" rx="12" fill="url(#screen)"/>
+  <rect x="344" y="164" width="512" height="34" rx="12" fill="#123a66"/>
+  <circle cx="364" cy="181" r="4" fill="#ffb3ab"/>
+  <circle cx="378" cy="181" r="4" fill="#ffd8a8"/>
+  <circle cx="392" cy="181" r="4" fill="#9be3c4"/>
+  <text x="600" y="187" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.12em" fill="#9db9d8" text-anchor="middle">STUZEN · SPRINT TELEMETRY</text>
+
+  <!-- sidebar -->
+  <rect x="362" y="216" width="108" height="196" rx="10" fill="#123a66"/>
+  <rect x="378" y="232" width="60" height="8" rx="4" fill="#41defd"/>
+  <g fill="#6f91b8">
+    <rect x="378" y="258" width="76" height="7" rx="3.5"/>
+    <rect x="378" y="280" width="58" height="7" rx="3.5"/>
+    <rect x="378" y="302" width="70" height="7" rx="3.5"/>
+    <rect x="378" y="324" width="48" height="7" rx="3.5"/>
+  </g>
+  <rect x="370" y="352" width="92" height="30" rx="7" fill="#0073e0"/>
+  <rect x="384" y="363" width="64" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.9"/>
+
+  <!-- metric cards -->
+  <g>
+    <rect x="490" y="216" width="106" height="70" rx="10" fill="#ffffff" fill-opacity="0.07"/>
+    <rect x="504" y="232" width="38" height="6" rx="3" fill="#6f91b8"/>
+    <text x="504" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">01</text>
+    <text x="536" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#41defd">PLAN</text>
+  </g>
+  <g>
+    <rect x="608" y="216" width="106" height="70" rx="10" fill="#ffffff" fill-opacity="0.07"/>
+    <rect x="622" y="232" width="44" height="6" rx="3" fill="#6f91b8"/>
+    <text x="622" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">02</text>
+    <text x="654" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#41defd">BUILD</text>
+  </g>
+  <g>
+    <rect x="726" y="216" width="112" height="70" rx="10" fill="#41defd" fill-opacity="0.14"/>
+    <rect x="740" y="232" width="48" height="6" rx="3" fill="#8fe8fb"/>
+    <text x="740" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">03</text>
+    <text x="772" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#41defd">SCALE</text>
+  </g>
+
+  <!-- chart -->
+  <rect x="490" y="302" width="348" height="110" rx="10" fill="#ffffff" fill-opacity="0.05"/>
+  <path d="M506 386c30 0 36-28 66-28s34 16 64 16 36-34 68-34 36 22 68 22 30-14 54-14" stroke="#41defd" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M506 386c30 0 36-28 66-28s34 16 64 16 36-34 68-34 36 22 68 22 30-14 54-14v50H506v-12z" fill="#41defd" fill-opacity="0.12"/>
+  <g fill="#6f91b8">
+    <rect x="506" y="326" width="44" height="6" rx="3"/>
+  </g>
+  <circle cx="640" cy="358" r="4" fill="#41defd"/>
+  <circle cx="772" cy="338" r="4" fill="#41defd"/>
+
+  <!-- table -->
+  <g filter="url(#soft)">
+    <ellipse cx="600" cy="650" rx="330" ry="76" fill="url(#table)"/>
+  </g>
+  <ellipse cx="600" cy="636" rx="330" ry="60" fill="#ffffff"/>
+  <ellipse cx="600" cy="636" rx="270" ry="40" fill="#f1f7ff"/>
+
+  <!-- laptop on table -->
+  <g filter="url(#soft)">
+    <rect x="520" y="586" width="160" height="14" rx="7" fill="#c3d5ea"/>
+    <path d="M544 586l10-72h92l10 72" fill="#0c2a4d"/>
+    <rect x="560" y="524" width="80" height="54" rx="5" fill="#123a66"/>
+    <rect x="570" y="536" width="30" height="5" rx="2.5" fill="#41defd"/>
+    <rect x="570" y="548" width="54" height="4" rx="2" fill="#6f91b8"/>
+    <rect x="570" y="558" width="42" height="4" rx="2" fill="#6f91b8"/>
+  </g>
+
+  <!-- person left (standing) -->
+  <g>
+    <circle cx="274" cy="430" r="34" fill="#f1c7a8"/>
+    <path d="M240 428c0-22 16-40 36-40s34 16 34 38c-8-8-20-12-36-10-14 2-24 6-34 12z" fill="#12233c"/>
+    <path d="M238 520c2-44 16-66 38-66s38 22 40 66l-8 110h-24l-8-78-8 78h-24l-6-110z" fill="#0073e0"/>
+    <path d="M254 526c-18 4-34 24-40 58" stroke="#0073e0" stroke-width="18" stroke-linecap="round"/>
+    <path d="M300 526c16 10 28 30 30 54" stroke="#0073e0" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="216" cy="586" r="11" fill="#f1c7a8"/>
+  </g>
+
+  <!-- person back left (sitting) -->
+  <g>
+    <circle cx="420" cy="512" r="30" fill="#d9a27f"/>
+    <path d="M390 508c0-20 14-36 32-36 20 0 32 16 32 34-8-6-18-10-32-8-12 2-24 6-32 10z" fill="#0c2a4d"/>
+    <path d="M382 590c2-36 16-56 38-56s36 20 38 56l-4 44h-64l-4-44z" fill="#0c2a4d"/>
+    <path d="M392 562c-18 8-28 26-30 50" stroke="#123a66" stroke-width="16" stroke-linecap="round"/>
+    <path d="M448 562c16 10 24 26 24 48" stroke="#123a66" stroke-width="16" stroke-linecap="round"/>
+  </g>
+
+  <!-- person back right (sitting) -->
+  <g>
+    <circle cx="782" cy="510" r="30" fill="#f1c7a8"/>
+    <path d="M752 506c0-20 14-36 32-36s32 16 32 34c-8-6-18-8-32-6-12 2-24 4-32 8z" fill="#3d1f0f"/>
+    <path d="M744 588c2-36 16-56 38-56s36 20 38 56l-4 46h-64l-8-46z" fill="#41defd"/>
+    <path d="M754 560c-18 8-28 26-30 48" stroke="#41defd" stroke-width="16" stroke-linecap="round"/>
+    <path d="M810 560c16 10 24 26 24 46" stroke="#41defd" stroke-width="16" stroke-linecap="round"/>
+  </g>
+
+  <!-- person right (standing) -->
+  <g>
+    <circle cx="934" cy="424" r="34" fill="#d9a27f"/>
+    <path d="M900 422c0-22 16-40 36-40s34 16 34 38c-8-8-20-12-36-10-14 2-24 4-34 12z" fill="#3d1f0f"/>
+    <path d="M898 514c2-44 16-66 38-66s38 22 40 66l-8 112h-24l-8-80-8 80h-24l-6-112z" fill="#0c2a4d"/>
+    <path d="M914 520c-18 8-30 26-34 52" stroke="#0c2a4d" stroke-width="18" stroke-linecap="round"/>
+    <path d="M960 520c18 12 28 28 28 50" stroke="#0c2a4d" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <!-- floating collaboration icons -->
+  <g filter="url(#soft)">
+    <rect x="120" y="196" width="86" height="86" rx="20" fill="#ffffff"/>
+  </g>
+  <path d="M148 246a14 14 0 0128 0c0 8-7 12-14 12s-14-4-14-12z" fill="#0073e0"/>
+  <circle cx="162" cy="226" r="7" fill="#0073e0"/>
+  <rect x="158" y="262" width="28" height="5" rx="2.5" fill="#c3d1e6"/>
+
+  <g filter="url(#soft)">
+    <rect x="986" y="196" width="86" height="86" rx="20" fill="#ffffff"/>
+  </g>
+  <path d="M1012 244l8 8 18-22" stroke="#10b981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1029" cy="230" r="23" stroke="#d1fae5" stroke-width="4"/>
+  <rect x="1016" y="260" width="26" height="5" rx="2.5" fill="#c3d1e6"/>
+
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Neural network and AI automation illustration</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06172c"/>
+      <stop offset="0.5" stop-color="#0a2547"/>
+      <stop offset="1" stop-color="#04101f"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#41defd"/>
+      <stop offset="1" stop-color="#0073e0"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#41defd" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#0073e0" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 400) scale(210)">
+      <stop stop-color="#41defd" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#41defd" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" stroke="#4f8bd6" stroke-opacity="0.1" stroke-width="1"/>
+    </pattern>
+    <filter id="blur" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feDropShadow dx="0" dy="0" stdDeviation="14" flood-color="#41defd" flood-opacity="0.8"/>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#core)"/>
+
+  <!-- orbit rings -->
+  <g stroke="url(#ring)">
+    <circle cx="600" cy="400" r="250" stroke-width="1.4"/>
+    <circle cx="600" cy="400" r="178" stroke-width="1.2" stroke-dasharray="3 9"/>
+    <circle cx="600" cy="400" r="318" stroke-width="1" stroke-dasharray="2 12"/>
+  </g>
+
+  <!-- network connections -->
+  <g stroke="#41defd" stroke-opacity="0.35" stroke-width="1.6">
+    <path d="M600 400L430 262M600 400L770 262M600 400L412 512M600 400L788 512M600 400L600 210M600 400L600 596"/>
+    <path d="M430 262L290 330M430 262L330 174M770 262L930 330M770 262L870 174M412 512L272 578M412 512L330 664M788 512L928 578M788 512L870 664"/>
+    <path d="M430 262L600 160M770 262L600 160M412 512L600 640M788 512L600 640M600 210L330 174M600 210L870 174"/>
+    <path d="M600 596L330 664M600 596L870 664M290 330L272 578M930 330L928 578"/>
+  </g>
+
+  <!-- outer nodes -->
+  <g fill="#41defd">
+    <circle cx="290" cy="330" r="7"/><circle cx="330" cy="174" r="6"/><circle cx="930" cy="330" r="7"/><circle cx="870" cy="174" r="6"/>
+    <circle cx="272" cy="578" r="7"/><circle cx="330" cy="664" r="6"/><circle cx="928" cy="578" r="7"/><circle cx="870" cy="664" r="6"/>
+    <circle cx="600" cy="160" r="8"/><circle cx="600" cy="640" r="8"/>
+  </g>
+
+  <!-- mid nodes -->
+  <g filter="url(#glow)">
+    <circle cx="430" cy="262" r="26" fill="url(#node)"/>
+    <circle cx="770" cy="262" r="26" fill="url(#node)"/>
+    <circle cx="412" cy="512" r="26" fill="url(#node)"/>
+    <circle cx="788" cy="512" r="26" fill="url(#node)"/>
+  </g>
+  <g fill="#06172c">
+    <circle cx="430" cy="262" r="9"/>
+    <circle cx="770" cy="262" r="9"/>
+    <circle cx="412" cy="512" r="9"/>
+    <circle cx="788" cy="512" r="9"/>
+  </g>
+
+  <!-- central core -->
+  <g filter="url(#soft)">
+    <circle cx="600" cy="400" r="94" fill="#0a2140" stroke="#2f74c0" stroke-opacity="0.7"/>
+  </g>
+  <circle cx="600" cy="400" r="70" fill="none" stroke="#41defd" stroke-opacity="0.28" stroke-width="2"/>
+  <circle cx="600" cy="400" r="46" fill="url(#node)" filter="url(#glow)"/>
+  <path d="M582 388c0-10 8-17 18-17s18 7 18 17c0 12-12 17-18 28-6-11-18-16-18-28z" fill="#062038"/>
+  <path d="M600 373v38M585 392h30M589 410h22" stroke="#41defd" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="600" cy="400" r="118" fill="none" stroke="#41defd" stroke-opacity="0.16" stroke-width="1.4"/>
+
+  <!-- floating labels -->
+  <g filter="url(#soft)">
+    <rect x="90" y="92" width="208" height="48" rx="14" fill="#0d2b50" stroke="#235283"/>
+  </g>
+  <circle cx="116" cy="116" r="6" fill="#41defd"/>
+  <text x="134" y="121" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.1em" fill="#c8e5ff">RAG PIPELINE · ACTIVE</text>
+
+  <g filter="url(#soft)">
+    <rect x="904" y="648" width="206" height="48" rx="14" fill="#0d2b50" stroke="#235283"/>
+  </g>
+  <circle cx="930" cy="672" r="6" fill="#41defd"/>
+  <text x="948" y="677" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.1em" fill="#c8e5ff">HUMAN OVERSIGHT</text>
+
+  <g filter="url(#soft)">
+    <rect x="912" y="112" width="196" height="64" rx="16" fill="#0d2b50" stroke="#235283"/>
+  </g>
+  <rect x="932" y="130" width="34" height="8" rx="4" fill="#41defd" fill-opacity="0.8"/>
+  <rect x="932" y="146" width="64" height="8" rx="4" fill="#41648f"/>
+  <path d="M1064 132l12 12-12 12" stroke="#41defd" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>
